@@ -1,0 +1,75 @@
+$col: #000;
+$col1: #d2d2d2;
+
+.thanks_body {
+   min-height: 100vh !important;
+   scroll-behavior: smooth !important;
+   animation: fade-in 0.4s ease !important;
+   background: linear-gradient(189deg, #085d5d, #0d0033) !important;
+   background-size: cover !important;
+   background-repeat: no-repeat !important;
+   margin: 0;
+   opacity: 0;
+   animation: ani 1.1s forwards !important;
+   @keyframes fade-in {
+      0% {
+         opacity: 0;
+      }
+      100% {
+         opacity: 1;
+      }
+   }
+   &::-webkit-scrollbar {
+      width: 18px;
+      /* ширина для вертикального скролла */
+      height: 0px;
+      /* высота для горизонтального скролла */
+      background: #0b354b;
+   }
+
+   /* ползунок скроллбара */
+   &::-webkit-scrollbar-thumb {
+      background-color: #ffffffb5;
+   }
+   &::-webkit-scrollbar-button {
+      display: none;
+   }
+}
+.thanks_wrapper {
+   margin: auto;
+   height: 100%;
+   a:-webkit-any-link {
+      color: $col;
+   }
+
+   .container {
+      font-family: "Poppins", sans-serif;
+      font-size: 35px;
+      line-height: 55px;
+      text-align: center;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
+   .thanks_title {
+      color: $col1;
+   }
+   .thanks_subtitle {
+      color: $col1;
+      margin-bottom: 2%;
+   }
+   .thanks_button {
+      font-size: 30px;
+      border-radius: 20px;
+      padding: 10px 70px;
+      background-color: #5cd7ec;
+      transition: 0.25s;
+
+      &:hover {
+         background-color: #4db7ca;
+         color: #d6d6d6;
+      }
+   }
+}

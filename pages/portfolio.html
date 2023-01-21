@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site_portfolio.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Webmaster</title>
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <ul class="popup">
+        <div class="popup_back_black"></div>
+
+        <form class="popup_wrapper" action="../telegram.php" method="POST">
+            <h5>Связаться</h5>
+            <img class="close" width="35px" height="35px" src="/img/close.png" alt="">
+
+            <input class="popup_item_value form-control form_input form_name" type="text" name="name"
+                placeholder="Ваше имя" required minlength="4" maxlength="25">
+            <input class="popup_item_value form-control form_input form_tel tel" type="tel" name="phone"
+                placeholder="+7 (XXX) XXX XX XX" required>
+            <input class="popup_item_value user_text form-control form_input form_text" type="hidden" name="text"
+                placeholder="Сообщение">
+            <textarea class="popup_item_value " oninput="document.querySelector('.user_text').value = this.value;"
+                placeholder="Введите что-нибдуь"></textarea>
+            <input class="form_input form_btn popup-btn" type="submit" value="Отправить">
+        </form>
+
+    </ul>
+    <header>
+        <div class="header_wrapper">
+            <nav class="head_links main_page">
+                <a href="/index.html" class="logo animation_fromLeft_to_right element-animation">Беслан Соблиров</a>
+                <div class="nav_links animation_fromRight_to_left element-animation">
+                    <a class="nav_link_item" href="#">Портфолио</a>
+                    <a class="popup_call message_for_user" style="--clr:#1e9bff"> <span>Связаться</span><i></i></a>
+                </div>
+
+            </nav>
+
+
+        </div>
+    </header>
+
+    <div class="portfolio_wrapper">
+        <div class="container">
+            <div class="content main_page">
+
+                <div class="element-animation my_work_1 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/flaby.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>Flaby</h2>
+                            <p>№1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-animation my_work_2 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/food.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>Italian Food</h2>
+                            <p>№2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-animation my_work_3 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/mogo.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>MoGo</h2>
+                            <p>№3</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-animation my_work_4 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/smart.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>Smart Home</h2>
+                            <p>№4</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="element-animation my_work_5 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/wayup.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>My dream</h2>
+                            <p>№5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-animation my_work_6 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/airplane.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>Airplane</h2>
+                            <p>№6</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-animation my_work_7 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/ital.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>Ital</h2>
+                            <p>№7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-animation my_work_8 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/metastorm.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>Metastorm</h2>
+                            <p>№8</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-animation my_work_9 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/spidershiba.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>SpiderShiba</h2>
+                            <p>№9</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-animation my_work_10 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/antools.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>Antools</h2>
+                            <p>№10</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-animation my_work_11 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/sneakers.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>Sneakers</h2>
+                            <p>№11</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-animation my_work_12 wrapper portfolio_card">
+                    <div class="box blury-card">
+                        <img width="100%" src="../img/portfolio/npt.png" alt="Blue Ridge Mountains">
+                        <div class="frame">
+                            <h2>Npt</h2>
+                            <p>№12</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="element-animation footer_portfolio main_page">
+        <div class="contacts">
+            <div class="contacts_title">Контакты</div>
+
+            <div class="links_container">
+                <div class="telegram">
+
+                    <img class="img_icon" src="../img/footer/telegram.png" alt="">
+
+                    <a href="https://t.me/MeMuslim1">Задавайте вопросы в телеграм</a>
+
+                </div>
+
+                <div class="whatsapp">
+                    <img class="img_icon" src="../img/footer/whatsapp.png" alt="">
+                    <a href="tel:+1234567890"> Мой номер: +79280778106</a>
+                </div>
+
+                <div id="githab" class="githab">
+                    <img class="img_icon" src="../img/footer/github.png" alt="">
+                    <a href="https://github.com/FlabyKare?tab=repositories">Мой GitHub профиль</a>
+                </div>
+
+                <div class="email">
+                    <img class="img_icon" src="../img/footer/email.png" alt="">
+                    <a href="mailto:beslansoblirov074@gmail.com">Моя почта</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
