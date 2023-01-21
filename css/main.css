@@ -1909,7 +1909,7 @@ h6 {
   background: #ba4411;
 }
 
-@media (min-height: 800px) {
+@media (min-height: 300px) {
   .element-animation {
     opacity: 0;
     -webkit-transform: scale(0.9);
