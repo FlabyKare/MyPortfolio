@@ -497,8 +497,8 @@ body {
 .header_wrapper {
    width: 100%;
 }
-.logo{
-    line-height: 34px;
+.logo {
+   line-height: 34px;
 }
 .head_links {
    display: flex;
@@ -737,10 +737,16 @@ li {
    color: #fff;
    letter-spacing: 2px;
 }
-
-.skills_list {
-   padding: 30px 15px;
-   font-size: 28px;
+.ul {
+   text-align: left;
+   width: 100%;
+   margin-top: 5%;
+}
+.skills_list,
+.my_skills,
+.ul {
+   padding: 15px;
+   font-size: 25px;
    font-family: "Poppins", sans-serif;
    font-weight: bold;
    color: #fff;
@@ -752,20 +758,22 @@ li {
       margin-top: 2%;
    }
 
-   .ul {
-      text-align: left;
-      width: 100%;
-      margin-top: 5%;
-   }
    li {
       list-style-image: url(../img/checked.png) !important;
       list-style-position: inside;
    }
-   .react {
-      list-style-image: url(../img/time.png) !important;
+}
+.technology_stack {
+   width: 260px;
+   margin-top: 50px;
+   .my_skills {
+      font-size: 20px;
    }
 }
-
+.ul {
+   padding: 0;
+   margin-left: -10px;
+}
 .profession_img {
    width: 325px;
    height: 322px;
@@ -783,6 +791,7 @@ li {
    a {
       color: #1ad6f1;
    }
+   margin-bottom: 15px;
 }
 
 .contacts {
@@ -791,19 +800,39 @@ li {
    color: #fff;
    font-size: 25px;
    line-height: 30px;
-   width: 30%;
-   margin: 0 auto;
+   width: fit-content;
+   margin: auto 0;
+
+   .links_container {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      min-width: 350px;
+   }
+   .contacts_title {
+      width: fit-content;
+      text-align: center;
+   }
 }
 
 footer {
    position: relative;
    bottom: 0;
    left: 0;
-
+   width: 70%;
    padding-top: 50px;
    padding-bottom: 50px;
+   margin: auto;
    display: flex;
-   justify-content: center;
+   justify-content: start;
+
+   .contacts {
+      //   position: absolute;
+      //   top: 50%;
+      //   left: 50%;
+      //   trasform: translate(-50%, -50%);
+   }
 }
 
 .links_container {
@@ -812,11 +841,12 @@ footer {
    }
 }
 .contacts_title {
-   font-size: 40px;
+   font-size: 35px;
 
    text-align: center;
-   margin-bottom: 15%;
+   margin-bottom: 4% !important;
 }
+
 .img_icon {
    margin-right: 2%;
    display: inline-block;

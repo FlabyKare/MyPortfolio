@@ -1,0 +1,61 @@
+Блок с расценкой моих услуг
+
+
+
+<section class="card_wrapper main_page">
+            <div class="card_item animation_fromLeft_to_right element-animation">
+                <div class="card_title">Эконом - 399 руб</div>
+
+                <div class="card_title mt_cards">(1 страница)</div>
+                <div class="card_list">
+                    <ul>
+                        <li>Бесплатная консультация</li>
+                        <li>Верстка PSD макета</li>
+                        <li>Установка фавикона</li>
+                        <li>Загрузка на хостинг</li>
+                        <li>Лимит страниц: 2</li>
+                        <li>Срок: 1-2 дня</li>
+                    </ul>
+                </div>
+                <div class="card_btn card_btn1 popup_call">Заказать</div>
+            </div>
+
+            <div class="card_item card_item2 animation_fromUP_to_bottom element-animation">
+                <div class="card_title">Стандарт - 999 руб</div>
+                <div class="card_title mt_cards">(1 страница)</div>
+                <div class="card_list">
+                    <ul>
+                        <li>Включено: "Эконом"</li>
+                        <li>Адаптивная вёрстка</li>
+                        <li>Верстка макета Figma</li>
+                        <li>Pixel Perfect</li>
+                        <li>Лимит страниц: 5</li>
+                        <li>Срок: 1-4 дней</li>
+
+
+                    </ul>
+                </div>
+                <div class="card_btn card_btn2 popup_call">Заказать</div>
+            </div>
+
+            <div class="card_item card_item3  animation_fromRight_to_left element-animation">
+                <div class="card_title">Бизнес - 1799 руб</div>
+
+                <div class="card_title mt_cards">(2 страницы)</div>
+                <div class="card_list card_list3">
+                    <ul>
+                        <li>Включено: "Эконом" + "Стандарт"</li>
+                        <li>Форма обратной связи</li>
+                        <li>Доменное имя</li>
+                        <li>Онлайн консультант</li>
+                        <li>Рассылка Email-писем</li>
+                        <li>Лимит страниц: <span class="infinity">&#8734</span></li>
+                        <li>Срок: до 2-ух недель (Зависит от объёма)</li>
+
+                    </ul>
+                </div>
+                <div class="card_btn card_btn3 popup_call">Заказать</div>
+            </div>
+
+        </section> 
+    
