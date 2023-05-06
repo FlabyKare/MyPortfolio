@@ -54,6 +54,14 @@ body {
 
 .portfolio_card {
    cursor: pointer;
+   display: block;
+   @media (max-width: 409.98px) {
+      width: 100% !important;
+   }
+   @media (min-width: 410px) and (max-width: 699.98px) {
+      min-width: 314px;
+      width: 100% !important;
+   }
    * {
       cursor: pointer;
    }
@@ -118,7 +126,9 @@ body {
       min-height: 272px;
       z-index: 1;
       transition: all 0.3s ease-in-out;
-
+      @media (max-width: 409.98px) {
+         min-height: 180px;
+      }
       &:hover {
          transition: all 0.3s ease-in-out;
       }
@@ -276,9 +286,15 @@ body {
 
    &:hover {
       .frame {
-         width: calc(100% - 120px);
-         height: calc(100% - 120px);
          opacity: 1;
+         @media (min-width: 410px) {
+            width: calc(100% - 120px);
+            height: calc(100% - 120px);
+         }
+         @media (max-width: 409.98px) {
+            min-width: calc(100% - 120px);
+            min-height: calc(100% - 120px);
+         }
       }
 
       img {
