@@ -897,13 +897,13 @@ body {
    }
 
    .logo {
-      font-size: 40px;
+      font-size: 28px !important;
       font-weight: bold;
    }
 
    .nav_link_item {
       font-family: "Poppins", sans-serif;
-      font-size: 25px;
+      font-size: 30px;
       transition: 0.4s;
 
       &:hover {
@@ -922,13 +922,12 @@ body {
       text-decoration: none;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      padding: 10px 30px;
+      padding: 10px 30px !important;
       transition: 0.5s;
       margin-left: 25px;
       cursor: pointer;
 
       &:hover {
-         letter-spacing: 0.25em;
          background: var(--clr);
          color: var(--clr);
          box-shadow: 0 0 35px var(--clr);
@@ -977,6 +976,29 @@ body {
    }
 }
 
+@media (max-width: 767.98px) {
+   .head_links {
+      flex-direction: column;
+      gap: 15px;
+
+      .nav_links {
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         align-items: center;
+         min-width: 70%;
+         gap: 15px;
+         .nav_link_item {
+            letter-spacing: 0 !important;
+         }
+         a {
+            display: block;
+            margin: 0 auto !important;
+            margin-top: 20px !important;
+         }
+      }
+   }
+}
 .message_for_user:hover i::before {
    width: 25px;
    left: 20%;
@@ -1130,6 +1152,7 @@ li {
 .my_skills,
 .ul {
    padding: 15px;
+   padding-left: 0;
    font-size: 25px;
    font-family: "Poppins", sans-serif;
    font-weight: bold;
@@ -1143,8 +1166,19 @@ li {
    }
 
    li {
-      list-style-image: url(../img/checked.png) !important;
-      list-style-position: inside;
+      //   list-style-image: url(../img/checked.webp) !important;
+      //   list-style-position: inside;
+      display: flex;
+      align-items: center;
+
+      &::before {
+         content: "";
+         display: block;
+         margin-right: 10px;
+         width: 24px;
+         height: 24px;
+         background: url("../img/checked.webp");
+      }
    }
 }
 .technology_stack {
@@ -1156,7 +1190,6 @@ li {
 }
 .ul {
    padding: 0;
-   margin-left: -10px;
 }
 .profession_img {
    width: 325px;

@@ -538,14 +538,13 @@ body {
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .message_for_user {
-    padding: 8px 8px !important;
+    padding: 8px !important;
     -webkit-transition: 0.5s !important;
     transition: 0.5s !important;
     margin-left: 7px !important;
     font-size: 1.1rem;
   }
   .message_for_user:hover {
-    letter-spacing: 1px !important;
     background: var(--clr);
     color: var(--clr);
     -webkit-box-shadow: 0 0 15px var(--clr) !important;
@@ -568,14 +567,13 @@ body {
     font-size: 1.3rem !important;
   }
   .message_for_user:hover {
-    letter-spacing: 1px !important;
     background: var(--clr);
     color: var(--clr);
     -webkit-box-shadow: 0 0 15px var(--clr) !important;
             box-shadow: 0 0 15px var(--clr) !important;
   }
   .nav_link_item {
-    font-size: 36px !important;
+    font-size: 31px !important;
     display: inline-block !important;
     margin-top: 10%;
     margin-bottom: 13% !important;
@@ -585,11 +583,6 @@ body {
     line-height: 20px;
     display: block !important;
     margin-bottom: 5% !important;
-  }
-  .head_links {
-    display: block !important;
-    width: 100%;
-    text-align: center !important;
   }
   .card_item {
     width: 100% !important;
@@ -663,9 +656,6 @@ body {
   }
   .infome {
     margin-bottom: 15% !important;
-  }
-  .skills_list ul {
-    margin-left: 10% !important;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -829,7 +819,6 @@ body {
     margin-bottom: 15% !important;
   }
   .skills_list ul {
-    margin-left: 10% !important;
     margin-top: 5% !important;
   }
 }
@@ -1153,254 +1142,6 @@ body {
 @media (min-width: 1780px) {
   .card_list {
     min-height: 400px !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 777.98px) {
-  .message_for_user {
-    margin-left: 13px !important;
-    font-size: 14px !important;
-  }
-}
-@media (min-width: 778px) and (max-width: 784.98px) {
-  .message_for_user {
-    margin-left: 13px !important;
-  }
-}
-/*========================================================*/
-/*=========Adatpate for Apple-devices====================*/
-/*========================================================*/
-@media (width: 375px) and (height: 812px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 812px) and (height: 375px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 375px) and (height: 667px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 667px) and (height: 375px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 414px) and (height: 736px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 736px) and (height: 414px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 320px) and (height: 480px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 480px) and (height: 320px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 320px) and (height: 568px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 568px) and (height: 320px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 414px) and (height: 896px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 896px) and (height: 414px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 390px) and (height: 844px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 844px) and (height: 390px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 768px) and (height: 1024px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 1024px) and (height: 768px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 820px) and (height: 1180px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
-  }
-}
-@media (width: 1180px) and (height: 820px) {
-  .message_for_user:hover {
-    letter-spacing: 0.1em !important;
-    background: #27282c !important;
-    color: var(--clr) !important;
-  }
-  .message_for_user i::before {
-    display: none;
-  }
-  .message_for_user i::after {
-    display: none;
   }
 }
 .thanks_body {
@@ -2417,12 +2158,12 @@ body::-webkit-scrollbar-button {
   color: #fff;
 }
 .head_links .logo {
-  font-size: 40px;
+  font-size: 28px !important;
   font-weight: bold;
 }
 .head_links .nav_link_item {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -2438,14 +2179,13 @@ body::-webkit-scrollbar-button {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  padding: 10px 30px;
+  padding: 10px 30px !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-left: 25px;
   cursor: pointer;
 }
 .head_links .message_for_user:hover {
-  letter-spacing: 0.25em;
   background: var(--clr);
   color: var(--clr);
   -webkit-box-shadow: 0 0 35px var(--clr);
@@ -2495,6 +2235,38 @@ body::-webkit-scrollbar-button {
   transition: 0.5s;
 }
 
+@media (max-width: 767.98px) {
+  .head_links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+  }
+  .head_links .nav_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-width: 70%;
+    gap: 15px;
+  }
+  .head_links .nav_links .nav_link_item {
+    letter-spacing: 0 !important;
+  }
+  .head_links .nav_links a {
+    display: block;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+  }
+}
 .message_for_user:hover i::before {
   width: 25px;
   left: 20%;
@@ -2682,6 +2454,7 @@ li {
 .my_skills,
 .ul {
   padding: 15px;
+  padding-left: 0;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -2699,8 +2472,22 @@ li {
 .skills_list li,
 .my_skills li,
 .ul li {
-  list-style-image: url(../img/checked.png) !important;
-  list-style-position: inside;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.skills_list li::before,
+.my_skills li::before,
+.ul li::before {
+  content: "";
+  display: block;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  background: url("../img/checked.webp");
 }
 
 .technology_stack {
@@ -2713,7 +2500,6 @@ li {
 
 .ul {
   padding: 0;
-  margin-left: -10px;
 }
 
 .profession_img {

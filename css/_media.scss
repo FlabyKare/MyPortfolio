@@ -117,14 +117,13 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
    .message_for_user {
-      padding: 8px 8px !important;
+      padding: 8px !important;
       -webkit-transition: 0.5s !important;
       transition: 0.5s !important;
       margin-left: 7px !important;
       font-size: 1.1rem;
 
       &:hover {
-         letter-spacing: 1px !important;
          background: var(--clr);
          color: var(--clr);
          box-shadow: 0 0 15px var(--clr) !important;
@@ -149,14 +148,13 @@
       font-size: 1.3rem !important;
 
       &:hover {
-         letter-spacing: 1px !important;
          background: var(--clr);
          color: var(--clr);
          box-shadow: 0 0 15px var(--clr) !important;
       }
    }
    .nav_link_item {
-      font-size: 36px !important;
+      font-size: 31px !important;
       display: inline-block !important;
       margin-top: 10%;
       margin-bottom: 13% !important;
@@ -167,12 +165,6 @@
 
       display: block !important;
       margin-bottom: 5% !important;
-   }
-   .head_links {
-      display: block !important;
-      width: 100%;
-
-      text-align: center !important;
    }
    .card_item {
       width: 100% !important;
@@ -249,9 +241,6 @@
    }
    .infome {
       margin-bottom: 15% !important;
-   }
-   .skills_list ul {
-      margin-left: 10% !important;
    }
 }
 
@@ -408,7 +397,6 @@
       margin-bottom: 15% !important;
    }
    .skills_list ul {
-      margin-left: 10% !important;
       margin-top: 5% !important;
    }
 }
@@ -760,350 +748,5 @@
 @media (min-width: 1780px) {
    .card_list {
       min-height: 400px !important;
-   }
-}
-
-@media (min-width: 768px) and (max-width: 777.98px) {
-   .message_for_user {
-      margin-left: 13px !important;
-      font-size: 14px !important;
-   }
-}
-
-@media (min-width: 778px) and (max-width: 784.98px) {
-   .message_for_user {
-      margin-left: 13px !important;
-   }
-}
-
-/*========================================================*/
-/*=========Adatpate for Apple-devices====================*/
-/*========================================================*/
-
-// Iphone X
-@media (width: 375px) and (height: 812px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-@media (width: 812px) and (height: 375px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-
-// Iphone 6/7/8
-@media (width: 375px) and (height: 667px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-@media (width: 667px) and (height: 375px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-
-// Iphone 6/7/8 plus
-@media (width: 414px) and (height: 736px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-@media (width: 736px) and (height: 414px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-
-// Iphone 4
-@media (width: 320px) and (height: 480px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-@media (width: 480px) and (height: 320px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-
-// Iphone 5/SE
-@media (width: 320px) and (height: 568px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-@media (width: 568px) and (height: 320px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-
-//Iphone XR
-
-@media (width: 414px) and (height: 896px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-@media (width: 896px) and (height: 414px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-
-//Iphone 12 Pro
-
-@media (width: 390px) and (height: 844px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-@media (width: 844px) and (height: 390px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-
-//IPad mini
-
-@media (width: 768px) and (height: 1024px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-@media (width: 1024px) and (height: 768px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-
-//IPad Air
-
-@media (width: 820px) and (height: 1180px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
-   }
-}
-@media (width: 1180px) and (height: 820px) {
-   .message_for_user {
-      &:hover {
-         letter-spacing: 0.1em !important;
-         background: #27282c !important;
-         color: var(--clr) !important;
-      }
-      i {
-         &::before {
-            display: none;
-         }
-         &::after {
-            display: none;
-         }
-      }
    }
 }
