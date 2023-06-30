@@ -41,6 +41,25 @@ body {
   padding: 10px;
 }
 
+.section_title {
+  color: #fff;
+  text-align: center;
+  margin: 60px auto 0;
+  font-family: "DM-sans", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 20px;
+  line-height: 45px;
+}
+@media (max-width: 350px) {
+  .section_title {
+    font-size: 31px;
+  }
+}
+
 .name {
   position: relative;
   font-size: 16px;
